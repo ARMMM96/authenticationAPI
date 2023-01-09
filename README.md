@@ -15,7 +15,6 @@ a microservice to handle singup and authenticating users
 
 
 
-## articles
 
 ``` http
   POST /api/user/signup
@@ -36,7 +35,7 @@ a microservice to handle singup and authenticating users
 
 
 
-## payment
+
 
 ``` http
     POST /api/user/login
@@ -107,6 +106,26 @@ a microservice to handle singup and authenticating users
 
 > Returns:
 * Imge uploaded
+
+
+
+## Roles Routes
+
+
+``` http
+    POST /api/roles/create
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `token` | `header Parameter` | **Required**.   |
+| `roleTitle` | ` body string` | **Required**.   |
+
+
+
+> Returns:
+*  Role title
+*  Role ID
 
 
 
