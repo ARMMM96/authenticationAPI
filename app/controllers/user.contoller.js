@@ -1,5 +1,4 @@
 const userModel = require("../../database/models/user.model")
-const deltedUsers = require("../../database/models/deletedUsers.model")
 const resHelper = require("../helpers/resHelper")
 const upload = require('../middlewares/imageUpload.middleware')
 const multer = require("multer")
