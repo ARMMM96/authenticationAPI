@@ -129,6 +129,33 @@ a microservice to handle singup and authenticating users
 
 
 
+``` http
+    POST /api/roles/update
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `token` | `header Parameter` | **Required**.   |
+| `id` | ` body string` | **Required**.   |
+| `roleTitle` | ` body string` | **Required**.   |
+
+
+``` http
+    POST /api/roles/delete
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `token` | `header Parameter` | **Required**.   |
+| `id` | ` body string` | **Required**.   |
+
+
+
+> Returns:
+*  Role Deleted
+
+
+
 
 ## Author
 - [@AhmedRabie](https://github.com/ARMMM96)
